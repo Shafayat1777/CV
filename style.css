@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+body{
+    background-color: rgb(30, 30, 29);
+    font-family: Roboto Slab;
+}
+.content{
+    margin: 30px 50px;
+    border: 1px solid oldlace;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picName{
+    display: flex;
+    align-items: center;
+}
+.nameTitle{
+    margin-left: 10px;
+    color: oldlace;
+}
+.contentTable{
+    margin-top: 10px;
+}
+
+/********************/
+
+img{
+    width: 100px;
+    height: 100px;
+}
+h4{
+    font-weight: 100;
+}
+ul{
+    list-style-type: none;
+    color: oldlace;
+    font-weight: 100;
+}
+hr{
+    border-top: 3px solid rgb(57, 53, 45);
+    margin: 20px 0px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border-bottom: 3px dotted rgb(57, 53, 45);
+    text-align: left;
+    padding: 8px;
+    color: oldlace;
+    vertical-align: top;
+}
+th{
+    color: white;
+    width: 20%;
+    font-weight: 400;
+}
+td{
+    font-weight: 100;
+    width: 100%;
+}
+td.infoTable, th.infoTable  {
+
+    width: 0%;
+    border: 0px;
+}
+ul.infoTable{
+    list-style-type: square;
+}
+.hig{
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+.dates{
+    font-weight: 100;
+    font-size: 10px;
+}
+p{
+    margin-top: 5px;
+}
+p.about{
+    margin-top: 10px;
+    font-size: 13px;
+}
+td.skillTable, th.skillTable{
+    border: 2px dotted rgb(57, 53, 45);
+    width: 0%;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
